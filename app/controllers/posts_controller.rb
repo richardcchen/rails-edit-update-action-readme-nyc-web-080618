@@ -24,6 +24,10 @@ class PostsController < ApplicationController
     get 'posts/:id/edit', to: 'posts#edit', as: :edit_post
   end
   
+  def update 
+    
+  end 
+  
   
   
   
