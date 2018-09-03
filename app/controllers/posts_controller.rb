@@ -20,7 +20,11 @@ class PostsController < ApplicationController
   end
 
   #edit and update methods here
-  
+  def edit
+  end
+ 
+  def update
+  end
   
   
   
