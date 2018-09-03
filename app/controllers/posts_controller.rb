@@ -21,7 +21,7 @@ class PostsController < ApplicationController
 
   #edit and update methods here
   def edit 
-    get 'posts/:id/edit', to: 'posts#edit', as: :edit_post
+   
   end
   
   def update 
