@@ -25,7 +25,7 @@ class PostsController < ApplicationController
   end
   
   def update 
-    
+    patch 'posts/:id', to: 'posts#update'
   end 
   
   
